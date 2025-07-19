@@ -177,8 +177,8 @@ document.addEventListener('DOMContentLoaded', () => {
             "contact_hours_title": "Ish vaqti",
             "contact_hours_text": "Dush-Juma: 09:00 - 18:00",
             "contact_hours_weekend_text": "Shan-Yak: Dam olish kuni",
-            "location_map_title": "Google Xaritasidagi joylashuvimiz", // Обновлено
-            "location_map_text": "Bizni quyidagi Google Xaritasidan topishingiz mumkin.", // Обновлено
+            "location_map_title": "Google Xaritasidagi joylashuvimiz",
+            "location_map_text": "Bizni quyidagi Google Xaritasidan topishingiz mumkin.",
             "contact_form_title": "Bizga xabar yuboring",
             "contact_form_intro_text": "Bizga xabar yuborish uchun quyidagi shakldan foydalaning. Biz sizga imkon qadar tezroq javob beramiz."
         },
@@ -353,8 +353,8 @@ document.addEventListener('DOMContentLoaded', () => {
             "contact_hours_title": "Часы работы",
             "contact_hours_text": "Пн-Пт: 09:00 - 18:00",
             "contact_hours_weekend_text": "Сб-Вс: Выходной",
-            "location_map_title": "Наше расположение на Google Картах", // Обновлено
-            "location_map_text": "Вы можете найти нас на Google Картах ниже.", // Обновлено
+            "location_map_title": "Наше расположение на Google Картах",
+            "location_map_text": "Вы можете найти нас на Google Картах ниже.",
             "contact_form_title": "Отправить нам сообщение",
             "contact_form_intro_text": "Используйте форму ниже, чтобы отправить нам сообщение. Мы ответим вам как можно скорее."
         },
@@ -531,9 +531,9 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         // Обновление заголовка страницы
-        const pageTitleKey = document.querySelector('[data-lang-key^="page_title_"]');
-        if (pageTitleKey) {
-            const key = pageTitleKey.getAttribute('data-lang-key');
+        const pageTitleKeyElement = document.querySelector('title[data-lang-key]');
+        if (pageTitleKeyElement) {
+            const key = pageTitleKeyElement.getAttribute('data-lang-key');
             if (translations[lang] && translations[lang][key]) {
                 document.title = translations[lang][key];
             }
@@ -601,6 +601,32 @@ document.addEventListener('DOMContentLoaded', () => {
             } else {
                 faqAnswer.style.maxHeight = 0;
             }
+        });
+    });
+
+    // Обработчики для форм (пример, без реальной отправки на сервер)
+    const contactForms = document.querySelectorAll('.contact-form');
+    contactForms.forEach(form => {
+        form.addEventListener('submit', function(event) {
+            event.preventDefault(); // Предотвращаем стандартную отправку формы
+
+            const statusMessageElement = this.querySelector('.form-message');
+            statusMessageElement.style.display = 'block'; // Показываем сообщение
+
+            // Имитация отправки данных
+            setTimeout(() => {
+                const isSuccess = Math.random() > 0.2; // 80% успеха, 20% ошибки для демонстрации
+                if (isSuccess) {
+                    statusMessageElement.textContent = translations[localStorage.getItem('selectedLang') || 'ru'].form_success_message;
+                    statusMessageElement.classList.remove('error');
+                    statusMessageElement.classList.add('success');
+                    form.reset(); // Очищаем форму при успехе
+                } else {
+                    statusMessageElement.textContent = translations[localStorage.getItem('selectedLang') || 'ru'].form_error_message;
+                    statusMessageElement.classList.remove('success');
+                    statusMessageElement.classList.add('error');
+                }
+            }, 1000); // Задержка в 1 секунду
         });
     });
 });
