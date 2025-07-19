@@ -112,6 +112,18 @@ p {
     margin-bottom: 50px;
 }
 
+/* Add background to alternating sections to break up white space */
+.section-features, .section-partners, .cta-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.section-features, .section-partners {
+    background-color: var(--light-grey);
+    border-radius: var(--border-radius);
+    padding: 40px;
+}
+
+
 .section-subtitle {
     font-size: 2.2em;
     color: var(--primary-color);
@@ -1007,4 +1019,172 @@ p {
     width: 100%;
     height: 400px; /* Высота карты */
     border: none;
+}
+
+
+/* --- Responsive Styles --- */
+
+/* --- Tablet (Medium Screens) --- */
+@media (max-width: 992px) {
+    .header-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .main-nav ul {
+        gap: 15px;
+    }
+    .main-nav ul li a {
+        font-size: 1em;
+    }
+
+    .logo-text {
+        font-size: 1.5em;
+    }
+
+    .hero-content h1 {
+        font-size: 2.8em;
+    }
+
+    .page-title {
+        font-size: 2.5em;
+    }
+
+    .section-content {
+        padding: 40px;
+    }
+
+    .about-grid, .mission-vision-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .programs-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+}
+
+
+/* --- Mobile (Small Screens) --- */
+@media (max-width: 768px) {
+    .hamburger-menu {
+        display: block; /* Показать гамбургер-меню */
+        z-index: 1002; /* Выше чем лого и другие элементы хедера */
+    }
+
+    .main-nav ul {
+        display: none; /* Скрыть навигацию по умолчанию */
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 80%;
+        max-width: 320px;
+        height: 100vh;
+        background-color: var(--secondary-color);
+        padding-top: 80px;
+        text-align: center;
+        gap: 20px;
+        box-shadow: -5px 0 15px rgba(0,0,0,0.2);
+        transform: translateX(100%);
+        transition: transform 0.4s cubic-bezier(0.23, 1, 0.32, 1);
+        z-index: 1001;
+    }
+
+    .main-nav ul.active {
+        display: flex; /* Показать при активации */
+        transform: translateX(0);
+    }
+    
+    .main-nav ul li a {
+        font-size: 1.3em;
+        padding: 10px 0;
+    }
+
+    .main-nav ul li a::after {
+        display: none; /* Убрать подчеркивание в мобильном меню */
+    }
+
+    .header-content {
+        /* Убедимся, что переключатель языка не мешает */
+        position: relative;
+    }
+    
+    .language-switcher {
+        /* Позиционируем справа от лого, перед гамбургером */
+        order: 2;
+    }
+
+    .hamburger-menu {
+        order: 3;
+    }
+    
+    .logo {
+        order: 1;
+    }
+    
+    .logo-text {
+        font-size: 1.3em;
+    }
+    .college-logo {
+        height: 40px;
+    }
+
+    .hero-section {
+        height: 400px;
+    }
+    
+    .hero-content h1 {
+        font-size: 2.2em;
+    }
+    .hero-content p {
+        font-size: 1.1em;
+    }
+
+    .page-hero-section {
+        height: 200px;
+        margin-bottom: 0; /* Убираем отступ, т.к. контент больше не накладывается */
+    }
+
+    .page-title {
+        font-size: 2em;
+    }
+
+    .section-content {
+        margin-top: 30px; /* Заменяем отрицательный отступ на положительный */
+        padding: 25px 20px;
+        margin-bottom: 30px;
+    }
+    
+    .section-features, .section-partners {
+        padding: 25px 20px;
+    }
+    
+    .section-subtitle {
+        font-size: 1.8em;
+    }
+    .subsection-title {
+        font-size: 1.5em;
+    }
+
+    .features-grid,
+    .leadership-grid,
+    .programs-grid,
+    .clubs-grid,
+    .gallery-grid,
+    .contact-info-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+
+    .contact-form-section {
+        padding: 25px 20px;
+    }
 }
