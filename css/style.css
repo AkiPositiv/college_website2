@@ -1007,4 +1007,265 @@ p {
     width: 100%;
     height: 400px; /* Высота карты */
     border: none;
+
+    /* Общие мобильные настройки */
+@media (max-width: 992px) {
+    .container {
+        padding: 0 15px; /* Уменьшаем внутренние отступы на маленьких экранах */
+    }
+
+    .section-title {
+        font-size: 2em; /* Уменьшаем размер заголовков секций */
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.95em;
+    }
+
+    .section-welcome,
+    .section-features,
+    .section-partners {
+        padding: 60px 0; /* Уменьшаем вертикальные отступы секций */
+    }
+}
+
+/* Стили для планшетов и мобильных (768px и ниже) */
+@media (max-width: 768px) {
+    /* --- Header --- */
+    .main-header {
+        padding: 10px 0;
+    }
+
+    .header-content {
+        justify-content: space-between; /* Распределяем элементы */
+        align-items: center;
+        flex-wrap: nowrap; /* Важно, чтобы элементы не переносились в шапке */
+    }
+
+    .logo {
+        flex-grow: 1; /* Логотип занимает доступное место слева */
+        text-align: left;
+    }
+
+    .logo-text {
+        font-size: 1.2em; /* Уменьшаем размер текста логотипа */
+    }
+
+    .college-logo {
+        height: 40px; /* Уменьшаем высоту логотипа */
+    }
+
+    .main-nav {
+        display: none; /* Скрываем основное меню на мобильных */
+        flex-direction: column; /* Элементы меню будут в столбик */
+        position: absolute; /* Позиционируем меню абсолютно */
+        top: 65px; /* Высота шапки + небольшой отступ */
+        left: 0;
+        width: 100%;
+        background-color: var(--primary-color, #0056b3); /* Цвет фона для выпадающего меню */
+        box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+        max-height: 0; /* Изначально скрыто */
+        overflow: hidden; /* Скрываем содержимое, которое выходит за max-height */
+        transition: max-height 0.4s ease-in-out; /* Плавное открытие/закрытие */
+        z-index: 999; /* Поверх другого контента */
+    }
+
+    .main-nav.active {
+        max-height: 500px; /* Достаточно большое значение для раскрытия меню */
+    }
+
+    .main-nav ul {
+        flex-direction: column;
+        width: 100%;
+        padding: 0; /* Убираем отступы по умолчанию */
+        margin: 0; /* Убираем отступы по умолчанию */
+    }
+
+    .main-nav li {
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Разделители для пунктов меню */
+    }
+
+    .main-nav li:last-child {
+        border-bottom: none; /* Убираем границу у последнего элемента */
+    }
+
+    .main-nav li a {
+        padding: 15px 20px; /* Увеличиваем область для нажатия */
+        display: block; /* Занимает всю ширину */
+        color: var(--white, #fff);
+        transition: background-color 0.3s ease;
+    }
+
+    .main-nav li a:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        text-decoration: none;
+    }
+
+    .language-switcher {
+        order: 2; /* Располагаем переключатель языка между логотипом и гамбургером */
+        margin-left: auto; /* Сдвигаем вправо от лого */
+        margin-right: 20px; /* Отступ от гамбургера */
+        display: flex; /* Для выравнивания флага и селекта */
+        align-items: center;
+        gap: 5px;
+    }
+
+    .language-switcher #language-switcher-select {
+        background-color: transparent;
+        color: var(--text-color, #333);
+        border: 1px solid var(--border-color, #ddd);
+        padding: 5px 8px;
+        border-radius: 4px;
+        font-size: 0.9em;
+    }
+
+    .language-switcher #selected-flag {
+        height: 20px; /* Уменьшаем размер флага */
+        border: 1px solid var(--border-color, #ddd);
+        border-radius: 2px;
+    }
+
+
+    .hamburger-menu {
+        display: block; /* Показываем гамбургер-меню */
+        order: 3; /* Располагаем его справа */
+        background: none;
+        border: none;
+        font-size: 1.8em;
+        color: var(--primary-color, #0056b3);
+        cursor: pointer;
+        padding: 5px;
+    }
+
+    /* --- Hero Section --- */
+    .hero-section {
+        padding: 80px 15px; /* Уменьшаем отступы на мобильных */
+        min-height: 350px;
+    }
+
+    .hero-title {
+        font-size: 2.2em; /* Уменьшаем размер заголовка */
+    }
+
+    .hero-slogan {
+        font-size: 1.1em; /* Уменьшаем размер слогана */
+    }
+
+    /* --- Welcome Section --- */
+    .welcome-director-info {
+        flex-direction: column; /* Элементы в колонку */
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .director-photo-wrapper {
+        margin-bottom: 15px; /* Отступ после фото */
+    }
+
+    .director-text {
+        max-width: 100%; /* Полная ширина для текста */
+    }
+
+    /* --- Features Section --- */
+    .features-grid {
+        grid-template-columns: 1fr; /* Одна колонка на мобильных */
+        gap: 25px;
+    }
+
+    .feature-item {
+        padding: 25px;
+    }
+
+    .feature-item i {
+        font-size: 2.5em; /* Уменьшаем иконки */
+    }
+
+    .feature-item h3 {
+        font-size: 1.3em;
+    }
+
+    /* --- Partners Section --- */
+    .partners-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* 2-3 колонки на небольших экранах */
+        gap: 20px;
+    }
+
+    .partner-item {
+        padding: 15px;
+    }
+
+    .partner-logo {
+        max-height: 70px; /* Уменьшаем логотипы партнеров */
+    }
+
+    /* --- Footer --- */
+    .footer-content {
+        grid-template-columns: 1fr; /* Одна колонка для футера */
+        gap: 30px;
+        text-align: center;
+    }
+
+    .footer-col {
+        padding: 0 15px; /* Добавляем горизонтальный отступ, чтобы текст не прилипал к краям */
+    }
+
+    .footer-col ul {
+        padding: 0;
+    }
+
+    .footer-col li {
+        margin-bottom: 8px;
+    }
+
+    .social-links {
+        justify-content: center; /* Центрируем иконки соцсетей */
+    }
+
+    .footer-bottom {
+        padding: 15px 15px 10px;
+        font-size: 0.8em;
+    }
+}
+
+/* Стили для очень маленьких экранов (480px и ниже) */
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.8em;
+        margin-bottom: 25px;
+    }
+
+    .hero-section {
+        padding: 60px 10px;
+        min-height: 300px;
+    }
+
+    .hero-title {
+        font-size: 1.8em;
+    }
+
+    .hero-slogan {
+        font-size: 1em;
+    }
+
+    .btn-primary {
+        padding: 10px 18px;
+        font-size: 0.9em;
+    }
+
+    .language-switcher {
+        margin-right: 10px;
+    }
+
+    .partners-grid {
+        grid-template-columns: 1fr; /* Одна колонка на самых маленьких экранах */
+    }
+
+    .partner-logo {
+        max-height: 60px;
+    }
 }
