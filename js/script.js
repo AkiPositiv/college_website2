@@ -450,6 +450,31 @@ const translations = {
     "program_learn_more": "Learn More",
     "all_programs_cta": "A full list of specialties and detailed information about each program can be obtained from the admissions committee or by contacting us.",
     "all_programs_text": "A full list of specialties and detailed information about each program can be obtained from the admissions committee or by contacting us."
+    "page_title_student_life": "Student Life - Urtachirchik District Polytechnic College No. 2",
+    "student_life_page_title": "Student Life",
+    "student_life_intro_title": "More Than Just Studies",
+    "student_life_intro_text": "At Urtachirchik District Polytechnic College No. 2, we believe that student life should be not only educational but also exciting, diverse, and full of vivid moments. We create conditions for the comprehensive development of our students, offering a wide range of extracurricular activities, clubs, and sports sections.",
+    "events_activities_title": "Events and Activities",
+    "events_activities_text": "Our college regularly organizes various cultural, scientific, and entertainment events. These can include competitions, festivals, themed evenings, subject Olympiads, master classes, and much more. We strive to ensure that every student finds something they enjoy and can realize their talents.",
+    "activity1": "Annual student festivals \"Freshman Day\" and \"College Spring\".",
+    "activity2": "Intellectual games \"What? Where? When?\", KVN (Club of the Merry and Resourceful).",
+    "activity3": "Excursions to enterprises and museums.",
+    "activity4": "Participation in city and regional events.",
+    "clubs_sections_title": "Clubs and Sections",
+    "clubs_sections_text": "To develop students' creative, athletic, and scientific abilities, various clubs and sections operate at the college:",
+    "club_robotics_title": "Robotics Club",
+    "club_robotics_desc": "Development and programming of robots.",
+    "club_art_title": "Creative Studio",
+    "club_art_desc": "Drawing, design, arts and crafts.",
+    "club_sport_title": "Sports Sections",
+    "club_sport_desc": "Football, basketball, volleyball, table tennis.",
+    "club_vocal_title": "Vocal and Instrumental Ensemble",
+    "club_vocal_desc": "Development of musical talents.",
+    "gallery_title": "Student Life Gallery",
+    "gallery_caption1": "Concert in honor of Teacher's Day.",
+    "gallery_caption2": "Football sports competitions.",
+    "gallery_caption3": "Participation in the district Olympiad.",
+    "gallery_caption4": "Classes in the creative studio."
  
 
     
