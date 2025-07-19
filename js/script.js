@@ -180,7 +180,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "location_map_title": "Google Xaritasidagi joylashuvimiz",
             "location_map_text": "Bizni quyidagi Google Xaritasidan topishingiz mumkin.",
             "contact_form_title": "Bizga xabar yuboring",
-            "contact_form_intro_text": "Bizga xabar yuborish uchun quyidagi shakldan foydalaning. Biz sizga imkon qadar tezroq javob beramiz."
+            "contact_form_intro_text": "Bizga xabar yuborish uchun quyidagi shakldan foydalaning. Biz sizga imkon qadar tezroq javob beramiz.",
+            "deputy_director_yusupova_name": "Yusupova Feruza Zokir qizi",
+            "deputy_director_yusupova_position": "O‘quv ishlari bo‘yicha direktor o‘rinbosari",
+            "deputy_director_yusupova_bio": "Pedagogik faoliyatda boy tajribaga ega, o‘quv jarayonining yuqori sifatini ta’minlaydi va innovatsion metodikalarni joriy etadi.",
+
         },
         "ru": {
             "page_title_home": "Урта-Чирчикский районный Политехнический колледж №2",
@@ -356,7 +360,10 @@ document.addEventListener('DOMContentLoaded', () => {
             "location_map_title": "Наше расположение на Google Картах",
             "location_map_text": "Вы можете найти нас на Google Картах ниже.",
             "contact_form_title": "Отправить нам сообщение",
-            "contact_form_intro_text": "Используйте форму ниже, чтобы отправить нам сообщение. Мы ответим вам как можно скорее."
+            "deputy_director_yusupova_name": "Юсупова Феруза Зокир кизи",
+            "deputy_director_yusupova_position": "Заместитель директора по учебной работе",
+            "deputy_director_yusupova_bio": "Обладает богатым опытом в педагогической деятельности, обеспечивает высокое качество учебного процесса и внедряет инновационные методики.",
+            "contact_form_intro_text": "Используйте форму ниже, чтобы отправить нам сообщение. Мы ответим вам как можно скорее.",
         },
         "en": {
             "page_title_home": "Urtachirchik District Polytechnic College No. 2",
@@ -513,7 +520,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "gallery_caption1": "Concert in honor of Teacher's Day.",
             "gallery_caption2": "Football sports competitions.",
             "gallery_caption3": "Participation in the district Olympiad.",
-            "gallery_caption4": "Classes in the creative studio."
+            "gallery_caption4": "Classes in the creative studio.",
+            "deputy_director_yusupova_name": "Yusupova Feruza Zokir qizi",
+            "deputy_director_yusupova_position": "Deputy Director for Academic Affairs",
+            "deputy_director_yusupova_bio": "Possesses extensive experience in pedagogical activities, ensures high quality of the educational process, and implements innovative methodologies.",
+ 
         }
     };
 
