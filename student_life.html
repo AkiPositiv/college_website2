@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="page_title_student_life">Студенческая жизнь - Урта-Чирчикский Политехнический Колледж №2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/placeholder_logo.svg" alt="College Logo" class="college-logo">
+                    <span class="logo-text" data-lang-key="college_short_name">PTC No.2</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-lang-key="nav_home">Home</a></li>
+                    <li><a href="about.html" data-lang-key="nav_about">About College</a></li>
+                    <li><a href="applicants.html" data-lang-key="nav_applicants">Applicants</a></li>
+                    <li><a href="programs.html" data-lang-key="nav_programs">Programs</a></li>
+                    <li><a href="student_life.html" class="active" data-lang-key="nav_student_life">Student Life</a></li>
+                    <li><a href="contacts.html" data-lang-key="nav_contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <select id="language-switcher-select">
+                    <option value="uz" data-flag="img/uz.svg">O'zbekcha</option>
+                    <option value="ru" data-flag="img/ru.svg">Русский</option>
+                    <option value="en" data-flag="img/en.svg">English</option>
+                </select>
+                <img id="selected-flag" src="img/ru.svg" alt="Selected language flag">
+            </div>
+            <button class="hamburger-menu" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero-section student-life-hero" style="background-image: url('img/student_life_hero.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container page-hero-content">
+                <h1 class="page-title" data-lang-key="student_life_page_title">Студенческая жизнь</h1>
+            </div>
+        </section>
+
+        <section class="section-content container">
+            <h2 class="section-subtitle" data-lang-key="student_life_intro_title">Больше, чем просто учеба</h2>
+            <p data-lang-key="student_life_intro_text">
+                В Урта-Чирчикском районном Политехническом колледже №2 мы верим, что студенческая жизнь должна быть не только образовательной, но и увлекательной, разнообразной и полной ярких моментов. Мы создаем условия для всестороннего развития наших студентов, предлагая широкий спектр внеучебных мероприятий, кружков и спортивных секций.
+            </p>
+
+            <h3 class="subsection-title" data-lang-key="events_activities_title">Мероприятия и активности</h3>
+            <p data-lang-key="events_activities_text">
+                Наш колледж регулярно организует различные культурные, научные и развлекательные мероприятия. Это могут быть конкурсы, фестивали, тематические вечера, олимпиады по предметам, мастер-классы и многое другое. Мы стремимся, чтобы каждый студент нашел что-то по душе и мог реализовать свои таланты.
+            </p>
+            <ul class="activity-list">
+                <li data-lang-key="activity1">Ежегодные студенческие фестивали "День первокурсника" и "Весна колледжа".</li>
+                <li data-lang-key="activity2">Интеллектуальные игры "Что? Где? Когда?", КВН.</li>
+                <li data-lang-key="activity3">Экскурсии на предприятия и в музеи.</li>
+                <li data-lang-key="activity4">Участие в городских и региональных мероприятиях.</li>
+            </ul>
+
+            <h3 class="subsection-title" data-lang-key="clubs_sections_title">Кружки и секции</h3>
+            <p data-lang-key="clubs_sections_text">
+                Для развития творческих, спортивных и научных способностей студентов в колледже действуют различные кружки и секции:
+            </p>
+            <div class="clubs-grid">
+                <div class="club-item">
+                    <i class="fas fa-robot club-icon"></i>
+                    <h4 data-lang-key="club_robotics_title">Кружок робототехники</h4>
+                    <p data-lang-key="club_robotics_desc">Разработка и программирование роботов.</p>
+                </div>
+                <div class="club-item">
+                    <i class="fas fa-paint-brush club-icon"></i>
+                    <h4 data-lang-key="club_art_title">Творческая студия</h4>
+                    <p data-lang-key="club_art_desc">Рисование, дизайн, декоративно-прикладное искусство.</p>
+                </div>
+                <div class="club-item">
+                    <i class="fas fa-basketball-ball club-icon"></i>
+                    <h4 data-lang-key="club_sport_title">Спортивные секции</h4>
+                    <p data-lang-key="club_sport_desc">Футбол, баскетбол, волейбол, настольный теннис.</p>
+                </div>
+                <div class="club-item">
+                    <i class="fas fa-microphone-alt club-icon"></i>
+                    <h4 data-lang-key="club_vocal_title">Вокально-инструментальный ансамбль</h4>
+                    <p data-lang-key="club_vocal_desc">Развитие музыкальных талантов.</p>
+                </div>
+            </div>
+
+            <h2 class="section-subtitle" data-lang-key="gallery_title">Галерея студенческой жизни</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="img/student_life_1.jpg" alt="Студенческое мероприятие 1" class="gallery-img">
+                    <p class="gallery-caption" data-lang-key="gallery_caption1">Концерт в честь Дня учителя.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/student_life_2.jpg" alt="Студенческое мероприятие 2" class="gallery-img">
+                    <p class="gallery-caption" data-lang-key="gallery_caption2">Спортивные соревнования по футболу.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/student_life_3.jpg" alt="Студенческое мероприятие 3" class="gallery-img">
+                    <p class="gallery-caption" data-lang-key="gallery_caption3">Участие в районной олимпиаде.</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="img/student_life_4.jpg" alt="Студенческое мероприятие 4" class="gallery-img">
+                    <p class="gallery-caption" data-lang-key="gallery_caption4">Занятия в творческой студии.</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-col about-col">
+                <h3 data-lang-key="footer_about_title">О колледже</h3>
+                <p data-lang-key="footer_about_text">
+                    Урта-Чирчикский районный Политехнический колледж №2 предлагает качественное профессиональное образование по востребованным специальностям. Мы готовим специалистов, готовых к вызовам современного рынка труда.
+                </p>
+            </div>
+            <div class="footer-col links-col">
+                <h3 data-lang-key="footer_links_title">Полезные ссылки</h3>
+                <ul>
+                    <li><a href="applicants.html" data-lang-key="footer_link_applicants">Абитуриенту</a></li>
+                    <li><a href="programs.html" data-lang-key="footer_link_programs">Специальности</a></li>
+                    <li><a href="student_life.html" data-lang-key="footer_link_student_life">Студенческая жизнь</a></li>
+                    <li><a href="contacts.html" data-lang-key="footer_link_contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-col">
+                <h3 data-lang-key="footer_contact_title">Контакты</h3>
+                <p data-lang-key="footer_address">Адрес: Урта-Чирчикский район, Политехнический колледж №2</p>
+                <p data-lang-key="footer_phone">Телефон: (Укажите телефон)</p>
+                <p data-lang-key="footer_email">Email: (Укажите Email)</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Telegram" data-lang-key="social_telegram_link"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram" data-lang-key="social_instagram_link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="Facebook" data-lang-key="social_facebook_link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-lang-key="footer_copyright">&copy; 2025 Урта-Чирчикский районный Политехнический колледж №2. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/form_handler.js"></script>
+
+</body>
+</html>
