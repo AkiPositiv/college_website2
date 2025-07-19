@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     const languageSwitcher = document.getElementById('language-switcher-select');
-    //const selectedFlag = document.getElementById('selected-flag');
+    const selectedFlag = document.getElementById('selected-flag');
     const hamburgerMenu = document.querySelector('.hamburger-menu');
     const mainNav = document.querySelector('.main-nav ul');
 
