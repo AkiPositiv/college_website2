@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="page_title_applicants">Абитуриенту - Урта-Чирчикский Политехнический Колледж №2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/placeholder_logo.svg" alt="College Logo" class="college-logo">
+                    <span class="logo-text" data-lang-key="college_short_name">PTC No.2</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-lang-key="nav_home">Home</a></li>
+                    <li><a href="about.html" data-lang-key="nav_about">About College</a></li>
+                    <li><a href="applicants.html" class="active" data-lang-key="nav_applicants">Applicants</a></li>
+                    <li><a href="programs.html" data-lang-key="nav_programs">Programs</a></li>
+                    <li><a href="student_life.html" data-lang-key="nav_student_life">Student Life</a></li>
+                    <li><a href="contacts.html" data-lang-key="nav_contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <select id="language-switcher-select">
+                    <option value="uz" data-flag="img/uz.svg">O'zbekcha</option>
+                    <option value="ru" data-flag="img/ru.svg">Русский</option>
+                    <option value="en" data-flag="img/en.svg">English</option>
+                </select>
+                <img id="selected-flag" src="img/ru.svg" alt="Selected language flag">
+            </div>
+            <button class="hamburger-menu" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero-section applicants-hero" style="background-image: url('img/applicants_hero.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container page-hero-content">
+                <h1 class="page-title" data-lang-key="applicants_page_title">Абитуриенту</h1>
+            </div>
+        </section>
+
+        <section class="section-content container">
+            <h2 class="section-subtitle" data-lang-key="admission_info_title">Информация для поступления</h2>
+            <p data-lang-key="admission_info_intro">
+                Мы рады приветствовать вас на странице для абитуриентов Урта-Чирчикского районного Политехнического колледжа №2! Здесь вы найдете всю необходимую информацию для успешного поступления в наш колледж.
+            </p>
+
+            <h3 class="subsection-title" data-lang-key="admission_conditions_title">Условия приема</h3>
+            <p data-lang-key="admission_conditions_text">
+                Прием в колледж осуществляется на основании конкурса аттестатов (или дипломов) и результатов вступительных испытаний по определенным специальностям (при необходимости). Подробную информацию о проходных баллах и критериях отбора можно получить в приемной комиссии.
+            </p>
+
+            <h3 class="subsection-title" data-lang-key="required_docs_title">Необходимые документы</h3>
+            <ul class="document-list">
+                <li data-lang-key="doc_application">Заявление на имя директора колледжа (заполняется при подаче документов).</li>
+                <li data-lang-key="doc_passport">Копия паспорта или свидетельства о рождении (оригинал предъявляется).</li>
+                <li data-lang-key="doc_education">Оригинал документа об образовании (аттестат, диплом).</li>
+                <li data-lang-key="doc_photo">6 фотографий размером 3х4 см.</li>
+                <li data-lang-key="doc_medical">Медицинская справка (форма 086/у).</li>
+                <li data-lang-key="doc_military">Приписное свидетельство или военный билет (для юношей).</li>
+            </ul>
+
+            <h3 class="subsection-title" data-lang-key="admission_dates_title">Сроки приема документов</h3>
+            <p data-lang-key="admission_dates_text">
+                Прием документов обычно начинается с **10 июля** и продолжается до **10 августа** текущего года. Рекомендуем следить за объявлениями на нашем сайте для получения актуальной информации.
+            </p>
+
+            <h2 class="section-subtitle" data-lang-key="faq_title">Часто задаваемые вопросы (FAQ)</h2>
+            <div class="accordion-container">
+                <div class="accordion-item">
+                    <button class="accordion-header" data-lang-key="faq_q1">
+                        Каковы основные направления обучения в колледже?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content" data-lang-key="faq_a1">
+                        Наш колледж предлагает обучение по таким востребованным направлениям, как Информационные технологии, Автомобильное дело, Электротехника, Бухгалтерский учет и другим. Полный список специальностей доступен на странице "Специальности".
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" data-lang-key="faq_q2">
+                        Предоставляется ли общежитие иногородним студентам?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content" data-lang-key="faq_a2">
+                        Да, для иногородних студентов предоставляется возможность проживания в общежитии колледжа при наличии свободных мест. Подробности можно узнать в приемной комиссии.
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" data-lang-key="faq_q3">
+                        Есть ли возможность получения образования на платной основе?
+                        <i class="fas fa-chevron-down accordion-icon"></i>
+                    </button>
+                    <div class="accordion-content" data-lang-key="faq_a3">
+                        Да, в колледже предусмотрено обучение как на бюджетной, так и на платной основе. Стоимость обучения и условия оплаты уточняйте в приемной комиссии.
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="section-subtitle" data-lang-key="contact_admission_title">Связаться с приемной комиссией</h2>
+            <p data-lang-key="contact_admission_text">
+                Если у вас остались вопросы, вы можете связаться с нами через форму обратной связи ниже или по телефону/email, указанным в разделе "Контакты".
+            </p>
+            <div class="contact-form-section">
+                <form id="admissionContactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="fullName" data-lang-key="form_label_name">Ваше ФИО:</label>
+                        <input type="text" id="fullName" name="fullName" required data-lang-key="form_placeholder_name" placeholder="Иванов Иван Иванович">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-lang-key="form_label_email">Ваш Email:</label>
+                        <input type="email" id="email" name="email" required data-lang-key="form_placeholder_email" placeholder="example@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone" data-lang-key="form_label_phone">Ваш телефон:</label>
+                        <input type="tel" id="phone" name="phone" data-lang-key="form_placeholder_phone" placeholder="+998 XX XXX XX XX">
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-lang-key="form_label_message">Ваш вопрос:</label>
+                        <textarea id="message" name="message" rows="5" required data-lang-key="form_placeholder_message" placeholder="Напишите ваш вопрос здесь..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-lang-key="form_submit_button">Отправить сообщение</button>
+                    <div id="form-message" class="form-message"></div>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-col about-col">
+                <h3 data-lang-key="footer_about_title">О колледже</h3>
+                <p data-lang-key="footer_about_text">
+                    Урта-Чирчикский районный Политехнический колледж №2 предлагает качественное профессиональное образование по востребованным специальностям. Мы готовим специалистов, готовых к вызовам современного рынка труда.
+                </p>
+            </div>
+            <div class="footer-col links-col">
+                <h3 data-lang-key="footer_links_title">Полезные ссылки</h3>
+                <ul>
+                    <li><a href="applicants.html" data-lang-key="footer_link_applicants">Абитуриенту</a></li>
+                    <li><a href="programs.html" data-lang-key="footer_link_programs">Специальности</a></li>
+                    <li><a href="student_life.html" data-lang-key="footer_link_student_life">Студенческая жизнь</a></li>
+                    <li><a href="contacts.html" data-lang-key="footer_link_contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-col">
+                <h3 data-lang-key="footer_contact_title">Контакты</h3>
+                <p data-lang-key="footer_address">Адрес: Урта-Чирчикский район, Политехнический колледж №2</p>
+                <p data-lang-key="footer_phone">Телефон: (Укажите телефон)</p>
+                <p data-lang-key="footer_email">Email: (Укажите Email)</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Telegram" data-lang-key="social_telegram_link"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram" data-lang-key="social_instagram_link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="Facebook" data-lang-key="social_facebook_link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-lang-key="footer_copyright">&copy; 2025 Урта-Чирчикский районный Политехнический колледж №2. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/form_handler.js"></script> </body>
+</html>
