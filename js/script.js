@@ -103,7 +103,7 @@ const translations = {
     "form_placeholder_message": "Savolingizni bu yerga yozing...",
     "form_submit_button": "Xabar yuborish",
     "form_success_message": "Sizning xabaringiz muvaffaqiyatli yuborildi. Tez orada siz bilan bog'lanamiz!",
-    "form_error_message": "Xabar yuborishda xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring."
+    "form_error_message": "Xabar yuborishda xatolik yuz berdi. Iltimos, keyinroq qayta urinib ko'ring.",
     "page_title_programs": "Mutaxassisliklar - O‘rta Chirchiq tumani 2-sonli Politexnika kolleji",
     "programs_page_title": "Mutaxassisliklar",
     "programs_intro_title": "Bizning ta'lim dasturlarimiz",
