@@ -156,7 +156,25 @@ const translations = {
     "gallery_caption2": "Futbol bo‘yicha sport musobaqalari.",
     "gallery_caption3": "Tuman olimpiadasida ishtirok etish.",
     "gallery_caption4": "Ijodiy studiyada mashg‘ulotlar."
- 
+    "page_title_contacts": "Aloqa - O‘rta Chirchiq tumani 2-sonli Politexnika kolleji",
+    "contacts_page_title": "Aloqa",
+    "contact_us_title": "Biz bilan bog‘laning",
+    "contact_us_intro": "Biz har doim savollaringizga javob berishga tayyormiz. Biz bilan istalgan qulay usulda bog‘lanishingiz yoki kollejimizga tashrif buyurishingiz mumkin.",
+    "contact_address_title": "Manzil",
+    "contact_address_text": "O‘rta Chirchiq tumani, 2-sonli Politexnika kolleji",
+    "contact_phone_title": "Telefon",
+    "contact_phone_text": "+998 (XX) XXX-XX-XX",
+    "contact_phone_admission_text": "Qabul komissiyasi: +998 (XX) XXX-XX-XY",
+    "contact_email_title": "Elektron pochta",
+    "contact_email_text": "info@college.uz",
+    "contact_email_admission_text": "Qabul komissiyasi: admission@college.uz",
+    "contact_hours_title": "Ish vaqti",
+    "contact_hours_text": "Dush-Juma: 09:00 - 18:00",
+    "contact_hours_weekend_text": "Shan-Yak: Dam olish kuni",
+    "location_map_title": "Xaritadagi joylashuvimiz",
+    "location_map_text": "Bizni quyidagi xaritadan topishingiz mumkin.",
+    "contact_form_title": "Bizga xabar yuboring",
+    "contact_form_intro_text": "Bizga xabar yuborish uchun quyidagi shakldan foydalaning. Biz sizga imkon qadar tezroq javob beramiz."
 
 
   },
@@ -316,7 +334,26 @@ const translations = {
     "gallery_caption2": "Спортивные соревнования по футболу.",
     "gallery_caption3": "Участие в районной олимпиаде.",
     "gallery_caption4": "Занятия в творческой студии."
-
+    "page_title_contacts": "Контакты - Урта-Чирчикский Политехнический Колледж №2",
+    "contacts_page_title": "Контакты",
+    "contact_us_title": "Свяжитесь с нами",
+    "contact_us_intro": "Мы всегда готовы ответить на ваши вопросы. Вы можете связаться с нами любым удобным способом или посетить наш колледж.",
+    "contact_address_title": "Адрес",
+    "contact_address_text": "Урта-Чирчикский район, Политехнический колледж №2",
+    "contact_phone_title": "Телефон",
+    "contact_phone_text": "+998 (XX) XXX-XX-XX",
+    "contact_phone_admission_text": "Приемная комиссия: +998 (XX) XXX-XX-XY",
+    "contact_email_title": "Email",
+    "contact_email_text": "info@college.uz",
+    "contact_email_admission_text": "Приемная комиссия: admission@college.uz",
+    "contact_hours_title": "Часы работы",
+    "contact_hours_text": "Пн-Пт: 09:00 - 18:00",
+    "contact_hours_weekend_text": "Сб-Вс: Выходной",
+    "location_map_title": "Наше расположение на карте",
+    "location_map_text": "Вы можете найти нас на карте ниже.",
+    "contact_form_title": "Отправить нам сообщение",
+    "contact_form_intro_text": "Используйте форму ниже, чтобы отправить нам сообщение. Мы ответим вам как можно скорее."
+  
     
   },
   "en": {
@@ -475,7 +512,26 @@ const translations = {
     "gallery_caption2": "Football sports competitions.",
     "gallery_caption3": "Participation in the district Olympiad.",
     "gallery_caption4": "Classes in the creative studio."
- 
+    "page_title_contacts": "Contacts - Urtachirchik District Polytechnic College No. 2",
+    "contacts_page_title": "Contacts",
+    "contact_us_title": "Contact Us",
+    "contact_us_intro": "We are always ready to answer your questions. You can contact us by any convenient method or visit our college.",
+    "contact_address_title": "Address",
+    "contact_address_text": "Urtachirchik District, Polytechnic College No. 2",
+    "contact_phone_title": "Phone",
+    "contact_phone_text": "+998 (XX) XXX-XX-XX",
+    "contact_phone_admission_text": "Admissions Office: +998 (XX) XXX-XX-XY",
+    "contact_email_title": "Email",
+    "contact_email_text": "info@college.uz",
+    "contact_email_admission_text": "Admissions Office: admission@college.uz",
+    "contact_hours_title": "Working Hours",
+    "contact_hours_text": "Mon-Fri: 09:00 AM - 06:00 PM",
+    "contact_hours_weekend_text": "Sat-Sun: Closed",
+    "location_map_title": "Our Location on the Map",
+    "location_map_text": "You can find us on the map below.",
+    "contact_form_title": "Send Us a Message",
+    "contact_form_intro_text": "Use the form below to send us a message. We will respond to you as soon as possible."
+  
 
     
   }
