@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru"> <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="page_title_about">О колледже - Урта-Чирчикский Политехнический Колледж №2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/placeholder_logo.svg" alt="College Logo" class="college-logo">
+                    <span class="logo-text" data-lang-key="college_short_name">PTC No.2</span>
+                </a>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html" data-lang-key="nav_home">Home</a></li>
+                    <li><a href="about.html" class="active" data-lang-key="nav_about">About College</a></li>
+                    <li><a href="applicants.html" data-lang-key="nav_applicants">Applicants</a></li>
+                    <li><a href="programs.html" data-lang-key="nav_programs">Programs</a></li>
+                    <li><a href="student_life.html" data-lang-key="nav_student_life">Student Life</a></li>
+                    <li><a href="contacts.html" data-lang-key="nav_contacts">Contacts</a></li>
+                </ul>
+            </nav>
+            <div class="language-switcher">
+                <select id="language-switcher-select">
+                    <option value="uz" data-flag="img/uz.svg">O'zbekcha</option>
+                    <option value="ru" data-flag="img/ru.svg">Русский</option>
+                    <option value="en" data-flag="img/en.svg">English</option>
+                </select>
+                <img id="selected-flag" src="img/ru.svg" alt="Selected language flag">
+            </div>
+            <button class="hamburger-menu" aria-label="Open menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero-section about-hero" style="background-image: url('img/college_building.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container page-hero-content">
+                <h1 class="page-title" data-lang-key="about_page_title">О колледже</h1>
+            </div>
+        </section>
+
+        <section class="section-content container">
+            <h2 class="section-subtitle" data-lang-key="about_history_title">Наша история</h2>
+            <p data-lang-key="about_history_paragraph1">
+                Урта-Чирчикский районный Политехнический колледж №2 был основан в **2009 году** с целью предоставления качественного среднего специального, профессионального образования и подготовки квалифицированных кадров для различных отраслей экономики региона. С момента своего основания колледж постоянно развивался, адаптируясь к меняющимся требованиям рынка труда и внедряя инновационные подходы в обучении.
+            </p>
+            <p data-lang-key="about_history_paragraph2">
+                За прошедшие годы мы выпустили тысячи специалистов, которые успешно трудятся на предприятиях и в организациях, способствуя развитию Узбекистана. Мы гордимся нашей историей и достижениями, а также стремимся к дальнейшему совершенствованию и лидерству в сфере профессионального образования.
+            </p>
+
+            <h2 class="section-subtitle" data-lang-key="about_mission_title">Миссия и ценности</h2>
+            <p data-lang-key="about_mission_paragraph">
+                **Наша миссия** — подготовка высококвалифицированных, конкурентоспособных и социально ответственных специалистов, способных к непрерывному обучению и адаптации к современным вызовам рынка труда. Мы стремимся создать образовательную среду, которая способствует всестороннему развитию личности, формированию профессиональных и гражданских качеств.
+            </p>
+            <div class="values-grid">
+                <div class="value-item">
+                    <i class="fas fa-lightbulb value-icon"></i>
+                    <h3 data-lang-key="value1_title">Инновации</h3>
+                    <p data-lang-key="value1_desc">Постоянное внедрение новых технологий и методик обучения.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-users value-icon"></i>
+                    <h3 data-lang-key="value2_title">Профессионализм</h3>
+                    <p data-lang-key="value2_desc">Высокий уровень подготовки преподавателей и студентов.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-hands-helping value-icon"></i>
+                    <h3 data-lang-key="value3_title">Сотрудничество</h3>
+                    <p data-lang-key="value3_desc">Активное взаимодействие с работодателями и обществом.</p>
+                </div>
+                <div class="value-item">
+                    <i class="fas fa-seedling value-icon"></i>
+                    <h3 data-lang-key="value4_title">Развитие</h3>
+                    <p data-lang-key="value4_desc">Создание условий для роста и самореализации каждого.</p>
+                </div>
+            </div>
+
+            <h2 class="section-subtitle" data-lang-key="about_management_title">Руководство колледжа</h2>
+            <div class="management-grid">
+                <div class="management-person">
+                    <img src="img/director_photo.jpg" alt="Фото директора" class="person-photo">
+                    <h3 data-lang-key="director_name">Шерматов Аваз Алиджанович</h3>
+                    <p class="person-position" data-lang-key="director_position">Директор колледжа</p>
+                    <p class="person-bio" data-lang-key="director_bio">
+                        Опытный руководитель с многолетним стажем в сфере образования. Под его руководством колледж достиг значительных успехов в подготовке квалифицированных кадров.
+                    </p>
+                </div>
+                <div class="management-person">
+                    <img src="img/placeholder_photo.jpg" alt="Фото заместителя директора" class="person-photo">
+                    <h3 data-lang-key="deputy_director1_name">Имя Фамилия Заместителя 1</h3>
+                    <p class="person-position" data-lang-key="deputy_director1_position">Заместитель директора по учебной работе</p>
+                    <p class="person-bio" data-lang-key="deputy_director1_bio">
+                        Отвечает за организацию учебного процесса, внедрение новых образовательных программ и контроль качества обучения.
+                    </p>
+                </div>
+                <div class="management-person">
+                    <img src="img/placeholder_photo.jpg" alt="Фото заместителя директора" class="person-photo">
+                    <h3 data-lang-key="deputy_director2_name">Имя Фамилия Заместителя 2</h3>
+                    <p class="person-position" data-lang-key="deputy_director2_position">Заместитель директора по воспитательной работе</p>
+                    <p class="person-bio" data-lang-key="deputy_director2_bio">
+                        Организует внеучебную деятельность студентов, развивает их творческие способности и формирует активную гражданскую позицию.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-col about-col">
+                <h3 data-lang-key="footer_about_title">О колледже</h3>
+                <p data-lang-key="footer_about_text">
+                    Урта-Чирчикский районный Политехнический колледж №2 предлагает качественное профессиональное образование по востребованным специальностям. Мы готовим специалистов, готовых к вызовам современного рынка труда.
+                </p>
+            </div>
+            <div class="footer-col links-col">
+                <h3 data-lang-key="footer_links_title">Полезные ссылки</h3>
+                <ul>
+                    <li><a href="applicants.html" data-lang-key="footer_link_applicants">Абитуриенту</a></li>
+                    <li><a href="programs.html" data-lang-key="footer_link_programs">Специальности</a></li>
+                    <li><a href="student_life.html" data-lang-key="footer_link_student_life">Студенческая жизнь</a></li>
+                    <li><a href="contacts.html" data-lang-key="footer_link_contacts">Контакты</a></li>
+                </ul>
+            </div>
+            <div class="footer-col contact-col">
+                <h3 data-lang-key="footer_contact_title">Контакты</h3>
+                <p data-lang-key="footer_address">Адрес: Урта-Чирчикский район, Политехнический колледж №2</p>
+                <p data-lang-key="footer_phone">Телефон: (Укажите телефон)</p>
+                <p data-lang-key="footer_email">Email: (Укажите Email)</p>
+                <div class="social-links">
+                    <a href="#" target="_blank" aria-label="Telegram" data-lang-key="social_telegram_link"><i class="fab fa-telegram-plane"></i></a>
+                    <a href="#" target="_blank" aria-label="Instagram" data-lang-key="social_instagram_link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" target="_blank" aria-label="Facebook" data-lang-key="social_facebook_link"><i class="fab fa-facebook-f"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-lang-key="footer_copyright">&copy; 2025 Урта-Чирчикский районный Политехнический колледж №2. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    </body>
+</html>
