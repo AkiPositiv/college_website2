@@ -44,8 +44,8 @@ ${escapeHtml(data.message)}
             `.trim();
 
             // === ЗАМЕНИТЕ ЭТИ ЗНАЧЕНИЯ ===
-            const BOT_TOKEN = '7890123456:AAHd8uXabcde...'; // ← Ваш токен от BotFather
-            const CHAT_ID = '-1001234567890';             // ← ID вашей группы (обязательно с минусом!)
+            const BOT_TOKEN = '7042630684:AAHXZ5In4ME6XQnATJJG__aJbu8NeXvi4mo'; // ← Ваш токен от BotFather
+            const CHAT_ID = '-4946571066';             // ← ID вашей группы (обязательно с минусом!)
             const TELEGRAM_API_URL = `https://api.telegram.org/bot ${BOT_TOKEN}/sendMessage`;
             // ============================
 
