@@ -1188,3 +1188,25 @@ p {
         padding: 25px 20px;
     }
 }
+
+.social-icon {
+    filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.2));
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff; /* Цвет иконок */
+    transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    fill: #f0c040; /* Цвет при наведении */
+    transform: scale(1.2) rotate(5deg); /* Увеличение и небольшой поворот */
+}
