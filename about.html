@@ -6,6 +6,144 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* Дополнительные стили для карточек руководства */
+        .management-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+            margin-bottom: 60px;
+        }
+
+        .management-item {
+            background-color: var(--white-color);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .management-item:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+        }
+
+        .management-photo {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-bottom: 3px solid var(--primary-color);
+        }
+
+        .management-info {
+            padding: 25px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .management-name {
+            font-size: 1.4em;
+            color: var(--secondary-color);
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+
+        .management-position {
+            font-size: 1.1em;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            font-weight: 600;
+            background-color: var(--light-grey);
+            padding: 8px 15px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .management-bio {
+            font-size: 0.95em;
+            color: var(--light-text-color);
+            line-height: 1.6;
+            margin-top: auto;
+            text-align: justify;
+        }
+
+        .management-contact {
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid var(--light-grey);
+        }
+
+        .management-contact a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-size: 0.9em;
+            transition: color 0.3s ease;
+        }
+
+        .management-contact a:hover {
+            color: var(--secondary-color);
+        }
+
+        .management-contact i {
+            margin-right: 5px;
+        }
+
+        /* Стили для ценностей */
+        .values-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+            margin-bottom: 50px;
+        }
+
+        .value-item {
+            background-color: var(--light-grey);
+            padding: 30px 25px;
+            border-radius: var(--border-radius);
+            text-align: center;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            border-bottom: 3px solid var(--accent-color);
+        }
+
+        .value-item:hover {
+            transform: translateY(-5px);
+            background-color: var(--white-color);
+            box-shadow: var(--box-shadow);
+        }
+
+        .value-icon {
+            font-size: 3em;
+            color: var(--primary-color);
+            margin-bottom: 15px;
+        }
+
+        .value-item h3 {
+            font-size: 1.3em;
+            color: var(--secondary-color);
+            margin-bottom: 10px;
+        }
+
+        .value-item p {
+            font-size: 0.95em;
+            color: var(--light-text-color);
+        }
+
+        @media (max-width: 768px) {
+            .management-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .values-grid {
+                grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            }
+        }
+    </style>
 </head>
 <body>
 
@@ -52,7 +190,7 @@
         <section class="section-content container">
             <h2 class="section-subtitle" data-lang-key="about_history_title">Наша история</h2>
             <p data-lang-key="about_history_paragraph1">
-                Урта-Чирчикский районный Политехнический колледж №2 был основан в **2009 году** с целью предоставления качественного среднего специального, профессионального образования и подготовки квалифицированных кадров для различных отраслей экономики региона. С момента своего основания колледж постоянно развивался, адаптируясь к меняющимся требованиям рынка труда и внедряя инновационные подходы в обучении.
+                Урта-Чирчикский районный Политехнический колледж №2 был основан в <strong>2009 году</strong> с целью предоставления качественного среднего специального, профессионального образования и подготовки квалифицированных кадров для различных отраслей экономики региона. С момента своего основания колледж постоянно развивался, адаптируясь к меняющимся требованиям рынка труда и внедряя инновационные подходы в обучении.
             </p>
             <p data-lang-key="about_history_paragraph2">
                 За прошедшие годы мы выпустили тысячи специалистов, которые успешно трудятся на предприятиях и в организациях, способствуя развитию Узбекистана. Мы гордимся нашей историей и достижениями, а также стремимся к дальнейшему совершенствованию и лидерству в сфере профессионального образования.
@@ -60,8 +198,9 @@
 
             <h2 class="section-subtitle" data-lang-key="about_mission_title">Миссия и ценности</h2>
             <p data-lang-key="about_mission_paragraph">
-                **Наша миссия** — подготовка высококвалифицированных, конкурентоспособных и социально ответственных специалистов, способных к непрерывному обучению и адаптации к современным вызовам рынка труда. Мы стремимся создать образовательную среду, которая способствует всестороннему развитию личности, формированию профессиональных и гражданских качеств.
+                <strong>Наша миссия</strong> — подготовка высококвалифицированных, конкурентоспособных и социально ответственных специалистов, способных к непрерывному обучению и адаптации к современным вызовам рынка труда. Мы стремимся создать образовательную среду, которая способствует всестороннему развитию личности, формированию профессиональных и гражданских качеств.
             </p>
+            
             <div class="values-grid">
                 <div class="value-item">
                     <i class="fas fa-lightbulb value-icon"></i>
@@ -85,31 +224,65 @@
                 </div>
             </div>
 
-<h2 class="section-title" data-lang-key="about_management_title"></h2>
-                <div class="management-grid">
-                    <div class="management-item">
-                        <h3 data-lang-key="director_name"></h3>
-                        <p class="position" data-lang-key="director_position"></p>
-                        <p data-lang-key="director_bio"></p>
-                    </div>
-                    <div class="management-item">
-                        <h3 data-lang-key="deputy_director_yusupova_name"></h3>
-                        <p class="position" data-lang-key="deputy_director_yusupova_position"></p>
-                        <p data-lang-key="deputy_director_yusupova_bio"></p>
-                    </div>
-                    <div class="management-item">
-                        <h3 data-lang-key="deputy_director1_name"></h3>
-                        <p class="position" data-lang-key="deputy_director1_position"></p>
-                        <p data-lang-key="deputy_director1_bio"></p>
-                    </div>
-                    <div class="management-item">
-                        <h3 data-lang-key="deputy_director2_name"></h3>
-                        <p class="position" data-lang-key="deputy_director2_position"></p>
-                        <p data-lang-key="deputy_director2_bio"></p>
+            <h2 class="section-subtitle" data-lang-key="about_management_title">Руководство колледжа</h2>
+            <div class="management-grid">
+                <div class="management-item">
+                    <img src="img/director.jpg" alt="Директор колледжа" class="management-photo">
+                    <div class="management-info">
+                        <h3 class="management-name" data-lang-key="director_name">Иванов Алексей Сергеевич</h3>
+                        <p class="management-position" data-lang-key="director_position">Директор колледжа</p>
+                        <p class="management-bio" data-lang-key="director_bio">
+                            Опытный руководитель с более чем 15-летним стажем в сфере образования. Кандидат педагогических наук, автор многочисленных научных работ по развитию профессионального образования. Под его руководством колледж достиг значительных успехов в подготовке квалифицированных специалистов.
+                        </p>
+                        <div class="management-contact">
+                            <a href="mailto:director@college.uz"><i class="fas fa-envelope"></i> director@college.uz</a>
+                        </div>
                     </div>
                 </div>
-        </section>
 
+                <div class="management-item">
+                    <img src="img/deputy_director_yusupova.jpg" alt="Заместитель директора по учебной работе" class="management-photo">
+                    <div class="management-info">
+                        <h3 class="management-name" data-lang-key="deputy_director_yusupova_name">Юсупова Нозима Абдуллаевна</h3>
+                        <p class="management-position" data-lang-key="deputy_director_yusupova_position">Заместитель директора по учебной работе</p>
+                        <p class="management-bio" data-lang-key="deputy_director_yusupova_bio">
+                            Магистр педагогических наук с 12-летним опытом работы в образовательной сфере. Специализируется на разработке и внедрении современных образовательных программ. Отвечает за качество учебного процесса и академическую успеваемость студентов.
+                        </p>
+                        <div class="management-contact">
+                            <a href="mailto:academic@college.uz"><i class="fas fa-envelope"></i> academic@college.uz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="management-item">
+                    <img src="img/deputy_director1.jpg" alt="Заместитель директора по воспитательной работе" class="management-photo">
+                    <div class="management-info">
+                        <h3 class="management-name" data-lang-key="deputy_director1_name">Петрова Марина Владимировна</h3>
+                        <p class="management-position" data-lang-key="deputy_director1_position">Заместитель директора по воспитательной работе</p>
+                        <p class="management-bio" data-lang-key="deputy_director1_bio">
+                            Психолог по образованию с богатым опытом работы с молодежью. Организует культурно-массовую работу, спортивные мероприятия и социальные проекты. Уделяет особое внимание личностному развитию студентов и созданию благоприятной образовательной среды.
+                        </p>
+                        <div class="management-contact">
+                            <a href="mailto:students@college.uz"><i class="fas fa-envelope"></i> students@college.uz</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="management-item">
+                    <img src="img/deputy_director2.jpg" alt="Заместитель директора по административно-хозяйственной части" class="management-photo">
+                    <div class="management-info">
+                        <h3 class="management-name" data-lang-key="deputy_director2_name">Рахимов Бахтияр Усманович</h3>
+                        <p class="management-position" data-lang-key="deputy_director2_position">Заместитель директора по АХЧ</p>
+                        <p class="management-bio" data-lang-key="deputy_director2_bio">
+                            Инженер-строитель по образованию, отвечает за материально-техническое обеспечение колледжа. Под его контролем находится состояние учебных корпусов, лабораторий и мастерских. Обеспечивает создание современной инфраструктуры для качественного образовательного процесса.
+                        </p>
+                        <div class="management-contact">
+                            <a href="mailto:admin@college.uz"><i class="fas fa-envelope"></i> admin@college.uz</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="main-footer">
@@ -147,5 +320,5 @@
     </footer>
 
     <script src="js/script.js"></script>
-    </body>
+</body>
 </html>
