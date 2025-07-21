@@ -372,11 +372,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "deputy_director_yusupova_bio": "Обладает богатым опытом в педагогической деятельности, обеспечивает высокое качество учебного процесса и внедряет инновационные методики.",
             "contact_form_intro_text": "Используйте форму ниже, чтобы отправить нам сообщение. Мы ответим вам как можно скорее.",
             "deputy_director_yuldasheva_name": "Юлдашева Лазокат Умаровна",
-            "deputy_director_yuldasheva_position_manaviyat": "Заместитель директора по духовно-просветительской работе",
-            "deputy_director_yuldasheva_bio_manaviyat": "Организует внеурочную деятельность студентов, развивает их творческие способности и формирует активную гражданскую позицию.",
+            "deputy_director_yuldasheva_position": "Заместитель директора по духовно-просветительской работе",
+            "deputy_director_yuldasheva_bio": "Организует внеурочную деятельность студентов, развивает их творческие способности и формирует активную гражданскую позицию.",
             "deputy_director_qayumova_name": "Каюмова Зульфия Сотволдиевна",
-            "deputy_director_qayumova_position_ishlab": "Заместитель директора по производственному обучению",
-            "deputy_director_qayumova_bio_ishlab": "Отвечает за организацию учебного и производственного процесса, внедрение новых образовательных программ и контроль качества обучения.",
+            "deputy_director_qayumova_position": "Заместитель директора по производственному обучению",
+            "deputy_director_qayumova_bio": "Отвечает за организацию учебного и производственного процесса, внедрение новых образовательных программ и контроль качества обучения.",
 
         },
         "en": {
@@ -539,11 +539,11 @@ document.addEventListener('DOMContentLoaded', () => {
             "deputy_director_yusupova_position": "Deputy Director for Academic Affairs",
             "deputy_director_yusupova_bio": "Possesses extensive experience in pedagogical activities, ensures high quality of the educational process, and implements innovative methodologies.",
             "deputy_director_yuldasheva_name": "Yuldasheva Lazokat Umarovna",
-            "deputy_director_yuldasheva_position_manaviyat": "Deputy Director for Spiritual and Educational Affairs",
-            "deputy_director_yuldasheva_bio_manaviyat": "Organizes extracurricular activities for students, develops their creative abilities, and fosters an active civic position.",
+            "deputy_director_yuldasheva_position": "Deputy Director for Spiritual and Educational Affairs",
+            "deputy_director_yuldasheva_bio": "Organizes extracurricular activities for students, develops their creative abilities, and fosters an active civic position.",
             "deputy_director_qayumova_name": "Qayumova Zulfiya Sotvoldiyevna",
-            "deputy_director_qayumova_position_ishlab": "Deputy Director for Production Training",
-            "deputy_director_qayumova_bio_ishlab": "Responsible for organizing the educational and production process, introducing new educational programs, and controlling the quality of education.",
+            "deputy_director_qayumova_position": "Deputy Director for Production Training",
+            "deputy_director_qayumova_bio": "Responsible for organizing the educational and production process, introducing new educational programs, and controlling the quality of education.",
     
 
  
