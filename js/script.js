@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Объект с переводами
     const translations = {
         "uz": {
-            "page_title_home": "O‘rta-Chirchiq tumani 2-sonli Politexnikum",
+            "page_title_home": "O‘rta-Chirchiq tumani 2-sonli Politexnikumi",
             "college_short_name": "PTK №2",
             "nav_home": "Bosh sahifa",
             "nav_about": "Kollej haqida",
