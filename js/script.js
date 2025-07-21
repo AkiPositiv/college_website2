@@ -184,6 +184,13 @@ document.addEventListener('DOMContentLoaded', () => {
             "deputy_director_yusupova_name": "Yusupova Feruza Zokir qizi",
             "deputy_director_yusupova_position": "O‘quv ishlari bo‘yicha direktor o‘rinbosari",
             "deputy_director_yusupova_bio": "Pedagogik faoliyatda boy tajribaga ega, o‘quv jarayonining yuqori sifatini ta’minlaydi va innovatsion metodikalarni joriy etadi.",
+            "deputy_director_yuldasheva_name": "Yuldasheva Lazokat Umarovna",
+            "deputy_director_yuldasheva_position": "Manaviyat ishlari bo‘yicha direktor o‘rinbosari",
+            "deputy_director_yuldasheva_bio": "Talabalarning darsdan tashqari faoliyatini tashkil etadi, ularning ijodiy qobiliyatlarini rivojlantiradi va faol fuqarolik pozitsiyasini shakllantiradi.",
+            "deputy_director_qayumova_name": "Qayumova Zulfiya Sotvoldiyevna",
+            "deputy_director_yuldasheva_position": "Ishlab-chiqarish ta`limi bo‘yicha direktor o‘rinbosari",
+            "deputy_director_yuldasheva_bio": "O‘quv va ishlab chiqarish jarayonini tashkil etish, yangi ta’lim dasturlarini joriy etish va ta’lim sifatini nazorat qilish uchun javobgar.",
+            
 
         },
         "ru": {
@@ -364,6 +371,13 @@ document.addEventListener('DOMContentLoaded', () => {
             "deputy_director_yusupova_position": "Заместитель директора по учебной работе",
             "deputy_director_yusupova_bio": "Обладает богатым опытом в педагогической деятельности, обеспечивает высокое качество учебного процесса и внедряет инновационные методики.",
             "contact_form_intro_text": "Используйте форму ниже, чтобы отправить нам сообщение. Мы ответим вам как можно скорее.",
+            "deputy_director_yuldasheva_name": "Юлдашева Лазокат Умаровна",
+            "deputy_director_yuldasheva_position_manaviyat": "Заместитель директора по духовно-просветительской работе",
+            "deputy_director_yuldasheva_bio_manaviyat": "Организует внеурочную деятельность студентов, развивает их творческие способности и формирует активную гражданскую позицию.",
+            "deputy_director_qayumova_name": "Каюмова Зульфия Сотволдиевна",
+            "deputy_director_qayumova_position_ishlab": "Заместитель директора по производственному обучению",
+            "deputy_director_qayumova_bio_ishlab": "Отвечает за организацию учебного и производственного процесса, внедрение новых образовательных программ и контроль качества обучения.",
+
         },
         "en": {
             "page_title_home": "Urta-chirchik District Polytechnic College No. 2",
@@ -524,6 +538,14 @@ document.addEventListener('DOMContentLoaded', () => {
             "deputy_director_yusupova_name": "Yusupova Feruza Zokir qizi",
             "deputy_director_yusupova_position": "Deputy Director for Academic Affairs",
             "deputy_director_yusupova_bio": "Possesses extensive experience in pedagogical activities, ensures high quality of the educational process, and implements innovative methodologies.",
+            "deputy_director_yuldasheva_name": "Yuldasheva Lazokat Umarovna",
+            "deputy_director_yuldasheva_position_manaviyat": "Deputy Director for Spiritual and Educational Affairs",
+            "deputy_director_yuldasheva_bio_manaviyat": "Organizes extracurricular activities for students, develops their creative abilities, and fosters an active civic position.",
+            "deputy_director_qayumova_name": "Qayumova Zulfiya Sotvoldiyevna",
+            "deputy_director_qayumova_position_ishlab": "Deputy Director for Production Training",
+            "deputy_director_qayumova_bio_ishlab": "Responsible for organizing the educational and production process, introducing new educational programs, and controlling the quality of education.",
+    
+
  
         }
     };
