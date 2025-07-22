@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
             "faq_title": "Tez-tez beriladigan savollar (FAQ)",
             "faq_q1": "Politexnikumda o‘qitishning asosiy yo‘nalishlari qanday?",
             "faq_a1": "Politexnikumimiz Axborot texnologiyalari, Avtomobil ishi, Elektrotexnika, Buxgalteriya hisobi va boshqa talab yuqori bo‘lgan yo‘nalishlarda ta'lim taklif etadi. Mutaxassisliklarning to‘liq ro‘yxati \"Mutaxassisliklar\" sahifasida mavjud.",
-            "faq_q2": "Pullik лщтекфле asosda ta'lim olish imkoniyati bormi?",
+            "faq_q2": "Pullik kontrakt asosda ta'lim olish imkoniyati bormi?",
             "faq_a2": "Ha, Politexnikumda byudjet asosida 9-sinf bitiruvchilari uchun va pullik kontrakt asosda 11-sinf bititruvchilari uchun ta'lim olish imkoniyati mavjud. O‘qish narxi va to‘lov shartlarini qabulxonadan yoki telegram bot orqali bilib olishingiz mumkun.",
             "faq_q3": "Boshqa shahardan kelgan talabalarga yotoqxona beriladimi?",
             "faq_a3": "Afsuski, hozirga vaqtda yotoqhonamiz mavjud emas",
