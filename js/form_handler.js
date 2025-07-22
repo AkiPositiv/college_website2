@@ -43,7 +43,7 @@ ${escapeHtml(data.message)}
             `.trim();
 
             const BOT_TOKEN = '7042630684:AAHXZ5In4ME6XQnATJJG__aJbu8NeXvi4mo';
-            const CHAT_ID = @priyemnaya_politexa; // ← Ваш ID или @group_username
+            const CHAT_ID = '@priyemnaya_politexa'; // ← Ваш ID или @group_username
             const TELEGRAM_API_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
             formMessage.textContent = 'Отправка...';
