@@ -1,3 +1,4 @@
+// form_handler.js
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('admissionContactForm');
     const formMessage = document.getElementById('form-message');
@@ -42,7 +43,7 @@ ${escapeHtml(data.message)}
             `.trim();
 
             const BOT_TOKEN = '7042630684:AAHXZ5In4ME6XQnATJJG__aJbu8NeXvi4mo';
-            const CHAT_ID = '-1075491040'; // ← Замените на настоящий ID из @RawDataBot
+            const CHAT_ID = '1075491040'; // ← Ваш ID или @group_username
             const TELEGRAM_API_URL = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
 
             formMessage.textContent = 'Отправка...';
