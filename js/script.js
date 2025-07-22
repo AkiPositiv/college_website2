@@ -188,8 +188,8 @@ document.addEventListener('DOMContentLoaded', () => {
             "deputy_director_yuldasheva_position": "Manaviyat ishlari bo‘yicha direktor o‘rinbosari",
             "deputy_director_yuldasheva_bio": "Talabalarning darsdan tashqari faoliyatini tashkil etadi, ularning ijodiy qobiliyatlarini rivojlantiradi va faol fuqarolik pozitsiyasini shakllantiradi.",
             "deputy_director_qayumova_name": "Qayumova Zulfiya Sotvoldiyevna",
-            "deputy_director_yuldasheva_position": "Ishlab-chiqarish ta`limi bo‘yicha direktor o‘rinbosari",
-            "deputy_director_yuldasheva_bio": "O‘quv va ishlab chiqarish jarayonini tashkil etish, yangi ta’lim dasturlarini joriy etish va ta’lim sifatini nazorat qilish uchun javobgar.",
+            "deputy_director_qayumova_position": "Ishlab-chiqarish ta`limi bo‘yicha direktor o‘rinbosari",
+            "deputy_director_qayumova_bio": "O‘quv va ishlab chiqarish jarayonini tashkil etish, yangi ta’lim dasturlarini joriy etish va ta’lim sifatini nazorat qilish uchun javobgar.",
             
 
         },
